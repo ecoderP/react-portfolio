@@ -1,0 +1,40 @@
+// Theme Colors
+$primary: #292E49;
+$secondary: #536976;
+$compliment: #dc143c;
+$gold: #c4bc21;
+
+// White and gray colors
+$white: #ffffff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+
+
+
+
+// Reset Page
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+
+
+    a {
+        text-decoration: none;
+        color: $gray-300;
+    }
+}

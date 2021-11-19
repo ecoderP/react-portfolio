@@ -1,0 +1,20 @@
+
+// Gradient Mixin
+@mixin gradient {
+    background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.8));
+
+}
+
+
+@mixin titleHeading-small {
+    font-size: 2rem;
+    //color: $primary;
+    text-align: center;
+}
+
+@mixin titleHeading-big {
+    font-size: 3rem;
+    //color: $primary;
+    text-align: center;
+}
+
