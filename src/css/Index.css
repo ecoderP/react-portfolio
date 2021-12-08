@@ -969,3 +969,42 @@ body a {
       -ms-flex: 1;
           flex: 1;
 }
+
+@media screen and (min-width: 570px) {
+  .footer {
+    height: 20vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .footer_wrapper {
+    margin: 1rem 2rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .footer_links {
+    width: 60%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer_links a {
+    cursor: pointer;
+  }
+  .footer_socials {
+    width: 15%;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
+  }
+  .footer_socials .github-icon,
+.footer_socials .linkedin-icon {
+    font-size: 1.5rem;
+  }
+}

@@ -62,3 +62,41 @@
         }
     }
 }
+
+
+@media screen and (min-width: 570px) {
+    .footer {
+        height: 20vh;
+        flex-direction: row;
+
+
+        &_wrapper {
+            margin: 1rem 2rem;
+            flex-direction: row;      
+        }
+
+
+        &_links {
+            width: 60%;
+            flex-direction: row;
+            justify-content: center;
+
+
+            a {
+                cursor: pointer;
+            }
+        }
+
+
+        &_socials {
+            width: 15%;
+            align-content: flex-end;
+
+
+            .github-icon,
+            .linkedin-icon {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
