@@ -1,0 +1,165 @@
+
+
+.contact {
+    padding: 3rem 0;
+    //width: 96%;
+    height: 100vh;
+    position: relative;
+
+
+    &_sideLine {
+        width: 5px;
+        height: 100%;
+        left: 0;
+        bottom: 0;
+        background-color: $secondary;
+        position: absolute;
+    }
+
+
+    &_wrapper {
+        width: calc(100% - 5px);
+        margin-left: 0.5rem;
+        padding: 3rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    &_left {
+        flex: 1;
+
+
+        h2 {
+            font-size: 2rem;
+            width: 80%;
+            width: 100%;
+            text-align: center;
+        }
+
+
+        &_icons {
+            display: none;
+        }
+    }
+
+
+    &_right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        p {
+            font-size: 1rem;
+            font-weight: 200;
+            text-align: center;
+
+
+            span {
+                font-weight: bold;
+            }
+        }
+
+
+        form {
+            width: 90%;
+            margin-top: 1.5rem;
+
+
+            input {
+                width: 60%;
+                height: 2.5rem;
+                margin: 0.2rem 0;
+                font-weight: 200;
+                border: none;
+                border-bottom: 1px solid $gray-400;
+                margin-bottom: 00.125rem;
+                outline: none;
+            }
+
+
+            textarea {
+                width: 100%;
+                margin-top: 1rem;
+                border: 1px solid $gray-400;
+                border-radius: 3%;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 570px) { 
+    .contact {
+        height: 100vh;
+
+
+        &_sideLine {
+            width: 25px;
+            height: 100%;
+        }
+    
+        &_wrapper {
+            width: calc(100% - 25px);
+            margin-left: 1.5rem;
+            padding: 3rem;
+            display: flex;
+            flex-direction: row;
+        }
+    
+    
+        &_left {
+            flex: 1;
+    
+    
+            h2 {
+                font-size: 3rem;
+                width: 80%;
+            }
+
+
+            &_icons {
+                margin: 0.3rem auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20%;
+                height: 8%;
+                padding: 0.5rem;
+
+
+                .github-icon,
+                .linkedin-icon {
+                    flex: 1;
+                    height: 4rem;
+                    margin-left: 0.5rem;
+                    color: $primary;
+                    cursor: pointer;                  
+                }
+            }
+        }
+    
+    
+        &_right {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+               
+    
+
+            .github-icon,
+            .linkedin-icon {
+                display: none;
+                //flex: 1;
+            }    
+        }
+    }
+    
+}

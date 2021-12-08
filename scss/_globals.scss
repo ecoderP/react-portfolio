@@ -12,6 +12,11 @@ $gray-300: #dee2e6;
 $gray-400: #ced4da;
 
 
+// Z-index Values
+    //-- Navigation bar --//
+.nav {
+    z-index: 200;
+}
 
 
 // Reset Page
@@ -31,10 +36,12 @@ body {
     line-height: 1.8;
     font-family: 'Poppins', sans-serif;
     width: 100vw;
+    position: relative;
 
 
     a {
         text-decoration: none;
         color: $gray-300;
+        cursor: pointer;
     }
 }

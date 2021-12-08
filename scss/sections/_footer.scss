@@ -1,0 +1,64 @@
+
+
+.footer {
+    width: 100%;
+    height: 45vh;
+    margin: 0;
+    background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.8));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    &_wrapper {
+        width: 100%;
+        height: 100%;
+        margin:  0 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    &_logo {
+        margin: 0.1rem 1rem 0.08rem 1rem;
+        
+
+        h3 {
+            font-size: 1.7rem;
+        }
+    }
+
+
+    &_links {
+        display: flex;
+        flex-direction: column;
+
+        a {
+            display: block;
+            align-self: center;
+            margin: 0.5rem;
+            padding: 0.3rem 0.5rem;
+            font-size: 1rem;
+            color: $gray-400;
+        }
+    }
+
+
+    &_socials {
+        width: 40%;
+        display: flex;
+
+        .github-icon,
+        .linkedin-icon {
+            width: 2rem;
+            height: auto;
+            margin: 0.3rem 1rem;
+            padding: 1.5rem 0.5rem;
+            color: $gray-400;
+            flex: 1;
+        }
+    }
+}

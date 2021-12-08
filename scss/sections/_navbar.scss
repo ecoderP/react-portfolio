@@ -1,0 +1,151 @@
+@import '../mixins';
+
+
+.nav {
+    width: 100%;
+    height: 70px;
+    padding: 0.5rem 2rem;
+    @include gradient;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0.1rem 0.5rem rgb(0 0 0 / 10%);
+    outline: $gray-400;
+    position: fixed;
+    opacity: 1;
+    z-index: 300;
+
+
+    a {
+        color: $gray-400;
+    }
+
+
+        .navlinks {
+            display: none;
+
+
+            &_list {
+                list-style-type: none;
+             //   display: none;
+     
+     
+                li a {
+                        font-size: 1.5rem;
+                        margin: 1rem 1rem;
+                        padding: 1rem;
+                    }
+             
+            }
+        }
+            
+}
+
+//Mobile Menu Toggle Icons
+.mobileMenu_toggle {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: $gray-400;
+    cursor: pointer;
+    transition: all 2s ease-in-out;
+
+
+    &_close {
+        transition: 2s ease-in-out;
+    }
+
+
+    &_open {
+        transition: 2s ease-in-out;
+    }
+}
+
+//Mobile Menu - Navigation
+.mobile_nav {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: $gray-400;
+    opacity: 0.9;
+    z-index: 200;
+    transform: translateX(-800px);
+    transition: 1s ease-in-out;
+
+
+    .mobile_navlinks_list {
+        width: 100%;
+        list-style-type: none;
+        text-align: center;
+        margin: 7rem auto;
+
+
+        li a {
+            display: inline-block;
+            width: 98%;
+            margin-top: 1rem;
+            padding: 0.5rem 4rem;
+            font-size: 2rem;
+            color: $primary;
+        }
+
+    }
+}
+
+
+.active {
+    transform: translateX(0px);
+    position: fixed;
+    z-index: 200;
+}
+
+
+
+
+//Media Quaries
+@media screen and (min-width: 570px)  {
+    .mobileMenu_toggle {
+        display: none;
+    }
+    
+    
+    .mobile_nav {
+        display: none;
+    }
+
+    
+    .nav {
+        height: 80px;
+        padding: 0.7rem 2.2rem;
+        position: relative;
+
+
+            .navlinks {
+                display: flex;
+                flex-direction: row;
+    
+    
+                &_list {
+                    list-style-type: none;
+                    display: flex;
+         
+         
+                    li a {
+                            font-size: 1.5rem;
+                            margin: 1rem 1rem;
+                            padding: 1rem;
+                        }
+                 
+                }
+            }
+                
+    }
+ 
+}
+    
+
+

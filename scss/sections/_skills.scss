@@ -2,8 +2,7 @@
 
 .skills {
     @include gradient;
-    padding: 5rem;
-    padding-top: 0;
+    padding: 5rem 0.5rem;
     
 
     .title {
@@ -41,13 +40,17 @@
 
     &_block {
         width: 100%;
+        margin: 2rem 0;
         height: 20vh;
         display: flex;
+        flex-direction: column;
         align-items: center;
 
 
         h3 {
             flex: 1;
+            align-self: flex-start;
+            padding-left: 1rem;
         }
     }
 
@@ -58,7 +61,7 @@
     &_wrapper {
         flex: 3;
         display: flex;
-        width: 70%;
+        width: 97%;
         justify-content: center;
         align-items: center;
         border-left: 2px solid $primary;   
@@ -88,8 +91,7 @@
             height: 100%;
             width: 100%;
             justify-content: center;
-            //padding: 3rem;
-            //margin-right: 1rem;
+        
 
 
             img {
@@ -103,35 +105,33 @@
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 570px) {
     .skills {
-        padding: 3rem 1rem;
-
-
-
-        &_block {
-            flex-direction: column;
-            height: 30vh;
-
-
-            h3 {
-                align-self: flex-start;
-                margin-bottom: 0;
-            }
-        }
-
-
-        &_wrapper.tech,
-        &_wrapper.design {
-            width: 100%;
-            border: none;
-         }
-
-
-        &_holder {
+        padding: 5rem;
+        
+    
+        .title {
+            padding-top: 2rem;
             margin: 0;
-            padding: 0;
- 
+            @include titleHeading-big;
+    
         }
-    }    
-}
+    
+    
+    
+    
+        &_block {
+            flex-direction: row;
+        }
+    
+
+    
+        &_wrapper {
+            width: 70%;
+        }
+    
+    
+    
+        
+    }
+}    
