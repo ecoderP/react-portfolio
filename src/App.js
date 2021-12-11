@@ -3,6 +3,7 @@ import Intro from './components/intro';
 import About from './components/about';
 import Skills from './components/skills';
 import Portfolio from './components/portfolio';
+import ProjectsPage from './components/projects_page';
 import Contact from './components/contact';
 import Footer from './components/footer';
 
@@ -13,7 +14,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 const App = () => {
     return (
         <Router>
-            <div>
+            <div className="appBody">
                 <Navbar />
                 <div className="content">
                     <Routes>
@@ -31,9 +32,10 @@ const App = () => {
                         <Route path="/Skills" caseSensitive={false} element={<Skills />} />
                         <Route path="/Portfolio" caseSensitive={false} element={<Portfolio />} />
                         <Route path="/Contact" caseSensitive={false} element={<Contact />} />
+                        <Route path="/Projects_page" caseSensitive={false} element={<ProjectsPage />} />
                     </Routes>
-                <Footer />
                 </div>
+                <Footer />
             </div>
         </Router>
     

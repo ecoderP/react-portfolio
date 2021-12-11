@@ -5,11 +5,22 @@
 @import 'projects';
 
 
-// Page Sections
+// Navigation Section
 @import 'sections/navbar';
+
+
+// Home Page Sections
 @import 'sections/intro';
 @import 'sections/about';
 @import 'sections/skills';
 @import 'sections/portfolio';
 @import 'sections/contact';
+
+
+// Pages Styles
+@import 'sections/projects_page';
+
+
+// Footer Section
 @import 'sections/footer';
+

@@ -66,11 +66,13 @@
 
 @media screen and (min-width: 570px) {
     .footer {
-        height: 20vh;
+        height: 110px;
+        margin-top: 2rem;
         flex-direction: row;
 
 
         &_wrapper {
+            height: 100%;
             margin: 1rem 2rem;
             flex-direction: row;      
         }

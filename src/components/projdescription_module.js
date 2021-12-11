@@ -1,5 +1,4 @@
 
-
 const Projdescription_module = ({heading, desc, tech, link1, link2}) => {
     return (
         <div className="desc">

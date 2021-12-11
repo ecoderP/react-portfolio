@@ -12,9 +12,12 @@ const Projects = ({img, link}) =>  {
             <a href={link} target="_blank" rel="noreferrer">
                 <img src={img} alt=" " className="projects_image" />
             </a>
-            {descData.map((props) => (
+            <div>
+                {descData.map((props) => (
                 <ProjdescriptionModule key={props.id} heading="props.heading" desc="props.desc" tech="props.tech" link1="props.link1" link2="props.link2" />
             ))}
+            </div>
+            
             
         </div>
     )

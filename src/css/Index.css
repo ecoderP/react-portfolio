@@ -20,6 +20,7 @@ body {
   line-height: 1.8;
   font-family: "Poppins", sans-serif;
   width: 100vw;
+  height: 100%;
   position: relative;
 }
 body a {
@@ -706,7 +707,7 @@ body a {
 @media screen and (min-width: 570px) {
   .portfolio {
     padding: 5rem;
-    height: 90vh;
+    height: 100vh;
   }
   .portfolio_wrapper {
     -webkit-box-orient: horizontal;
@@ -815,7 +816,7 @@ body a {
 
 @media screen and (min-width: 570px) {
   .contact {
-    height: 100vh;
+    height: 90vh;
   }
   .contact_sideLine {
     width: 25px;
@@ -889,6 +890,11 @@ body a {
 .contact_right .linkedin-icon {
     display: none;
   }
+}
+.projectsPage {
+  height: 100%;
+  width: 100%;
+  padding: 7rem 0.5rem 3rem 0.5rem;
 }
 .footer {
   width: 100%;
@@ -972,13 +978,15 @@ body a {
 
 @media screen and (min-width: 570px) {
   .footer {
-    height: 20vh;
+    height: 110px;
+    margin-top: 2rem;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
   }
   .footer_wrapper {
+    height: 100%;
     margin: 1rem 2rem;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
