@@ -10,9 +10,12 @@ const Portfolio = () => {
                 <div className="title_headingLine"></div>
                 <div className="portfolio_wrapper">
                     {SampleProjects.map((item) => (
-                    <Projects key={item.id} img={item.img} link={item.link} />
+                    <Projects key={item.id} img={item.img} link={item.link} 
+                        heading={item.heading}
+                        desc={item.desc}
+                        tech={item.tech}
+                     />
                     ))}
-                    
                     
                 </div>
                 <button>See more projects</button>

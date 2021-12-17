@@ -1,11 +1,12 @@
 
 
 
-const Projects = ({img, link, heading, desc, tech, link1, link2}) =>  {
+
+const Projects2 = ({img, link, heading, desc, tech, link1, link2}) =>  {
     
 
     return (
-        <div className="projects homePageComponent">
+        <div className="projects projectsPageComponent">
             <div className="projects_header">
                 <div className="projects_header_circle"></div>
                 <div className="projects_header_circle"></div>
@@ -28,4 +29,4 @@ const Projects = ({img, link, heading, desc, tech, link1, link2}) =>  {
 }
 
 
-export default Projects
+export default Projects2

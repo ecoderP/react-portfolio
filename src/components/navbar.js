@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className="nav">
                 <div className="nav_logo">
                     <Link to="/">
-                        <h1 className="nav_logo_img">Logo</h1>
+                        <h1 className="nav_logo_img">Paul</h1>
                     </Link>
                 </div>
                 <div className="navlinks">

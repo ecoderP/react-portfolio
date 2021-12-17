@@ -29,10 +29,23 @@ body a {
   cursor: pointer;
 }
 
-.projects {
-  width: 100%;
-  height: 50vh;
+.homePageComponent {
+  width: 95%;
+  height: 80%;
   margin: 2rem;
+}
+
+.projectsPageComponent {
+  min-width: 75vw;
+  margin: 0 1rem;
+  scroll-snap-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40vw;
+          flex: 1 1 40vw;
+}
+
+.projects {
+  position: relative;
   border: 1px solid #ced4da;
   border-radius: 5% 5% 0 0;
   overflow: hidden;
@@ -41,7 +54,8 @@ body a {
 }
 .projects_header {
   width: 100%;
-  height: 10%;
+  height: 30px;
+  border-radius: 5% 5% 0 0;
   background-color: #536976;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -73,15 +87,42 @@ body a {
   transition: all 10s ease;
 }
 .projects:hover .projects_image {
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.projects_Desc {
+  width: 100%;
+  height: 50%;
+  padding: 0.8rem;
+  color: #ced4da;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #292E49;
+}
+.projects_Desc h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+.projects_Desc p {
+  font-size: 0.8rem;
+}
+.projects_Desc h6 .tech {
+  text-align: center;
 }
 
 @media screen and (min-width: 570px) {
   .projects {
     width: 30%;
-    height: 40vh;
+    height: 75vh;
     margin: 20px 10px;
+  }
+  .projects_Desc {
+    height: 60%;
+  }
+  .projects_Desc h5 {
+    font-size: 1.3rem;
   }
 }
 .nav {
@@ -122,7 +163,7 @@ body a {
 }
 
 .mobileMenu_toggle {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bolder;
   color: #ced4da;
   cursor: pointer;
@@ -197,7 +238,7 @@ body a {
 
   .nav {
     height: 80px;
-    padding: 0.7rem 2.2rem;
+    padding: 0.7rem 1rem;
     position: relative;
   }
   .nav .navlinks {
@@ -243,7 +284,7 @@ body a {
 }
 .intro {
   height: 100%;
-  width: 100%;
+  width: 100vw;
   padding: 7rem 0.5rem 3rem 0.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -391,7 +432,7 @@ body a {
 }
 .about {
   height: 100vh;
-  width: 100%;
+  width: 95%;
   padding: 5rem 1rem;
   padding-bottom: 2rem;
   margin-bottom: 3rem;
@@ -707,7 +748,7 @@ body a {
 @media screen and (min-width: 570px) {
   .portfolio {
     padding: 5rem;
-    height: 100vh;
+    height: 100%;
   }
   .portfolio_wrapper {
     -webkit-box-orient: horizontal;
@@ -894,8 +935,44 @@ body a {
 .projectsPage {
   height: 100%;
   width: 100%;
-  padding: 7rem 0.5rem 3rem 0.5rem;
+  padding: 5rem 1rem;
 }
+.projectsPage .title {
+  font-size: 2rem;
+  text-align: center;
+}
+.projectsPage .title_headingLine::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  margin: 0 auto;
+  display: block;
+  background-color: #292E49;
+}
+.projectsPage .title_headingLine::after {
+  content: "";
+  width: 2rem;
+  height: 0.2rem;
+  padding-top: 0.5rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  display: block;
+  background-color: #292E49;
+}
+.projectsPage_wrapper {
+  width: 100%;
+}
+.projectsPage_webpages {
+  padding: 1rem;
+  margin: 0 -1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: scroll;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+}
+
 .footer {
   width: 100%;
   height: 45vh;

@@ -2,10 +2,51 @@
 .projectsPage {
     height: 100%;
     width: 100%;
-    padding: 7rem 0.5rem 3rem 0.5rem;
+    padding: 5rem 1rem;
 
 
-    h2 {
-       // font-size: 10rem;
+    .title {
+       @include titleHeading-small;
+
+
+       // Heading Line
+       &_headingLine::before {
+        content: "";
+        width: 10rem;
+        height: 0.1rem;
+        margin: 0 auto;
+        display: block;
+        background-color: $primary;
+    }
+
+    &_headingLine::after {
+        content: "";
+        width: 2rem;
+        height: 0.2rem;
+        padding-top: 0.5rem;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        display: block;
+        background-color: $primary;
+    }
+    }
+
+
+    &_wrapper {
+        width: 100%;
+    }
+
+    &_webpages {
+        //width: 100%;
+
+        padding: 1rem;
+        margin: 0 -1rem;
+        display: flex;
+        //justify-content: center;
+        //align-items: center;
+        //overflow-y: hidden;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+
     }
 } 
