@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.59c50dfc.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.dfe4a5c4.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.dfe4a5c4.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.3e9d5946.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.3e9d5946.js.map",
+    "static/js/2.ad014758.chunk.js": "/react-portfolio/static/js/2.ad014758.chunk.js",
+    "static/js/2.ad014758.chunk.js.map": "/react-portfolio/static/js/2.ad014758.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.59c50dfc.chunk.css.map": "/react-portfolio/static/css/main.59c50dfc.chunk.css.map",
+    "static/js/2.ad014758.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.ad014758.chunk.js.LICENSE.txt",
+    "static/media/admin-dashboard.3589b80e.png": "/react-portfolio/static/media/admin-dashboard.3589b80e.png",
+    "static/media/google-analytics.a2d5f2b6.png": "/react-portfolio/static/media/google-analytics.a2d5f2b6.png",
+    "static/media/header.665e11fa.png": "/react-portfolio/static/media/header.665e11fa.png",
+    "static/media/html.01ad075a.png": "/react-portfolio/static/media/html.01ad075a.png",
+    "static/media/me-3.0f80684a.png": "/react-portfolio/static/media/me-3.0f80684a.png",
+    "static/media/phonebook.52e50999.jpg": "/react-portfolio/static/media/phonebook.52e50999.jpg",
+    "static/media/photoshop.9bb8e3ac.png": "/react-portfolio/static/media/photoshop.9bb8e3ac.png",
+    "static/media/product-page.3dc3fc09.jpg": "/react-portfolio/static/media/product-page.3dc3fc09.jpg",
+    "static/media/wordpress.be7eecbe.png": "/react-portfolio/static/media/wordpress.be7eecbe.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e9d5946.js",
+    "static/js/2.ad014758.chunk.js",
+    "static/css/main.59c50dfc.chunk.css",
+    "static/js/main.dfe4a5c4.chunk.js"
+  ]
+}
