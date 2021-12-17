@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 
 import Projects2 from './projects2';
 import { WebPages } from './data_module';
@@ -9,7 +9,6 @@ import { PortfolioPages } from './data_module';
 
 
 function ProjectsPage() {
-    //const [activeClass, setActiveClass] = useState("");
     
     useEffect(() => {
         //update document title
