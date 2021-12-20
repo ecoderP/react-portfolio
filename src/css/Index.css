@@ -1,7 +1,3 @@
-.nav {
-  z-index: 200;
-}
-
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -29,102 +25,10 @@ body a {
   cursor: pointer;
 }
 
-.homePageComponent {
-  width: 95%;
-  height: 80%;
-  margin: 2rem;
+.nav {
+  z-index: 200;
 }
 
-.projectsPageComponent {
-  min-width: 75vw;
-  margin: 0 1rem;
-  scroll-snap-align: center;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 40vw;
-          flex: 1 1 40vw;
-}
-
-.projects {
-  position: relative;
-  border: 1px solid #ced4da;
-  border-radius: 5% 5% 0 0;
-  overflow: hidden;
-  -webkit-box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
-}
-.projects_header {
-  width: 100%;
-  height: 30px;
-  border-radius: 5% 5% 0 0;
-  background-color: #536976;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: sticky;
-  z-index: 10;
-}
-.projects_header_circle {
-  width: 10px;
-  height: 10px;
-  margin-left: 0.5rem;
-  border-radius: 50%;
-}
-.projects_header_circle:first-child {
-  background-color: #dc143c;
-}
-.projects_header_circle:nth-child(2) {
-  background-color: #c4bc21;
-}
-.projects_header_circle:nth-child(3) {
-  background-color: #e9ecef;
-}
-.projects_image {
-  width: 100%;
-  -webkit-transition: all 10s ease;
-  transition: all 10s ease;
-}
-.projects:hover .projects_image {
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-.projects_Desc {
-  width: 100%;
-  height: 50%;
-  padding: 0.8rem;
-  color: #ced4da;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: #292E49;
-}
-.projects_Desc h5 {
-  margin: 0;
-  padding: 0;
-  font-size: 1rem;
-}
-.projects_Desc p {
-  font-size: 0.8rem;
-}
-.projects_Desc h6 .tech {
-  text-align: center;
-}
-
-@media screen and (min-width: 570px) {
-  .projects {
-    width: 30%;
-    height: 75vh;
-    margin: 20px 10px;
-  }
-  .projects_Desc {
-    height: 60%;
-  }
-  .projects_Desc h5 {
-    font-size: 1.3rem;
-  }
-}
 .nav {
   width: 100%;
   height: 70px;
@@ -765,6 +669,7 @@ body a {
 }
 .contact {
   padding: 3rem 0;
+  width: 96%;
   height: 100vh;
   position: relative;
 }
@@ -932,6 +837,102 @@ body a {
     display: none;
   }
 }
+.homePageComponent {
+  width: 95%;
+  height: 80%;
+  margin: 2rem;
+}
+
+.projectsPageComponent {
+  min-width: 75vw;
+  margin: 0 1rem;
+  scroll-snap-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40vw;
+          flex: 1 1 40vw;
+}
+
+.projects {
+  position: relative;
+  border: 1px solid #ced4da;
+  border-radius: 5% 5% 0 0;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+.projects_header {
+  width: 100%;
+  height: 30px;
+  border-radius: 5% 5% 0 0;
+  background-color: #536976;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: sticky;
+  z-index: 10;
+}
+.projects_header_circle {
+  width: 10px;
+  height: 10px;
+  margin-left: 0.5rem;
+  border-radius: 50%;
+}
+.projects_header_circle:first-child {
+  background-color: #dc143c;
+}
+.projects_header_circle:nth-child(2) {
+  background-color: #c4bc21;
+}
+.projects_header_circle:nth-child(3) {
+  background-color: #e9ecef;
+}
+.projects_image {
+  width: 100%;
+  -webkit-transition: all 10s ease;
+  transition: all 10s ease;
+}
+.projects:hover .projects_image {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.projects_Desc {
+  width: 100%;
+  height: 50%;
+  padding: 0.8rem;
+  color: #ced4da;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #292E49;
+}
+.projects_Desc h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+.projects_Desc p {
+  font-size: 0.8rem;
+}
+.projects_Desc h6 .tech {
+  text-align: center;
+}
+
+@media screen and (min-width: 570px) {
+  .projects {
+    width: 30%;
+    height: 75vh;
+    margin: 20px 10px;
+  }
+  .projects_Desc {
+    height: 60%;
+  }
+  .projects_Desc h5 {
+    font-size: 1.3rem;
+  }
+}
 .projectsPage {
   height: 100%;
   width: 100%;
@@ -994,7 +995,7 @@ body a {
           align-items: center;
 }
 .footer_wrapper {
-  width: 100%;
+  width: 94%;
   height: 100%;
   margin: 0 2rem;
   display: -webkit-box;

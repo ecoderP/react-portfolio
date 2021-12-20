@@ -7,7 +7,7 @@ import ProjectsPage from './components/projects_page';
 import Contact from './components/contact';
 import Footer from './components/footer';
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 
@@ -16,7 +16,7 @@ const App = () => {
         <Router>
             <div>
                 <Navbar />
-                <div className="content">
+                
                     <Routes>
                         <Route path="/" exact element={
                             <>
@@ -34,7 +34,7 @@ const App = () => {
                         <Route path="/Contact" caseSensitive={false} element={<Contact />} />
                         <Route path="/Projects_page" caseSensitive={false} element={<ProjectsPage />} />
                     </Routes>
-                </div>
+                
                 <Footer />
             </div>
         </Router>

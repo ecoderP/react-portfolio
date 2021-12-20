@@ -1,8 +1,6 @@
 @import 'globals';
 
 
-// Components Sections
-@import 'projects';
 
 
 // Navigation Section
@@ -16,6 +14,8 @@
 @import 'sections/portfolio';
 @import 'sections/contact';
 
+// Components Sections
+@import 'projects';
 
 // Pages Styles
 @import 'sections/projects_page';
