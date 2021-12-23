@@ -29,6 +29,39 @@ body a {
   z-index: 200;
 }
 
+/*-- Media Queries --*/
+/* Breakpoints */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+  height: 100%;
+  position: relative;
+}
+body a {
+  text-decoration: none;
+  color: #dee2e6;
+  cursor: pointer;
+}
+
+.nav {
+  z-index: 200;
+}
+
 .nav {
   width: 100%;
   height: 70px;
@@ -61,7 +94,7 @@ body a {
   list-style-type: none;
 }
 .nav .navlinks_list li a {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin: 1rem 1rem;
   padding: 1rem;
 }
@@ -131,7 +164,7 @@ body a {
   z-index: 200;
 }
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 720px) {
   .mobileMenu_toggle {
     display: none;
   }
@@ -142,7 +175,7 @@ body a {
 
   .nav {
     height: 80px;
-    padding: 0.7rem 1rem;
+    padding: 0.7rem 2rem;
     position: relative;
   }
   .nav .navlinks {
@@ -161,11 +194,19 @@ body a {
     display: flex;
   }
   .nav .navlinks_list li a {
-    font-size: 1.5rem;
-    margin: 1rem 1rem;
-    padding: 1rem;
+    font-size: 0.95rem;
+    margin: 1rem 0.5rem;
+    padding: 1rem 0.5rem;
+  }
+  .nav .navlinks_list li a:hover {
+    border-bottom: 2px solid #ced4da;
+  }
+  .nav .navlinks_list li a:last-child {
+    margin-right: 3rem;
   }
 }
+/*-- Media Queries --*/
+/* Breakpoints */
 @-webkit-keyframes slide-up {
   50% {
     -webkit-transform: translateY(-50px);
@@ -274,7 +315,7 @@ body a {
      object-fit: cover;
 }
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 720px) {
   .intro {
     padding: 8rem 1rem 1rem 6rem;
     -webkit-box-orient: horizontal;
@@ -424,7 +465,7 @@ body a {
   font-weight: 400;
 }
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 720px) {
   .about {
     padding: 5rem;
     margin: 3rem 0;
@@ -567,7 +608,7 @@ body a {
      object-fit: contain;
 }
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 720px) {
   .skills {
     padding: 5rem;
   }
@@ -649,7 +690,7 @@ body a {
   background-color: #536976;
 }
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 720px) {
   .portfolio {
     padding: 5rem;
     height: 100%;
@@ -760,7 +801,7 @@ body a {
   border-radius: 3%;
 }
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 720px) {
   .contact {
     height: 90vh;
   }
@@ -920,7 +961,7 @@ body a {
   text-align: center;
 }
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 720px) {
   .projects {
     width: 30%;
     height: 75vh;
@@ -1054,7 +1095,7 @@ body a {
           flex: 1;
 }
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 720px) {
   .footer {
     height: 110px;
     margin-top: 2rem;

@@ -1,4 +1,5 @@
 @import '../mixins';
+@import '../globals';
 
 
 .nav {
@@ -27,11 +28,10 @@
 
             &_list {
                 list-style-type: none;
-             //   display: none;
      
      
                 li a {
-                        font-size: 1.5rem;
+                        font-size: 1rem;
                         margin: 1rem 1rem;
                         padding: 1rem;
                     }
@@ -107,7 +107,7 @@
 
 
 //Media Quaries
-@media screen and (min-width: 570px)  {
+@media screen and (min-width: 720px)  {
     .mobileMenu_toggle {
         display: none;
     }
@@ -120,7 +120,7 @@
     
     .nav {
         height: 80px;
-        padding: 0.7rem 1rem;
+        padding: 0.7rem 2rem;
         position: relative;
 
 
@@ -135,10 +135,20 @@
          
          
                     li a {
-                            font-size: 1.5rem;
-                            margin: 1rem 1rem;
-                            padding: 1rem;
+                            font-size: 0.95rem;
+                            margin: 1rem 0.5rem;
+                            padding: 1rem 0.5rem;
                         }
+
+
+                    li a:hover {
+                        border-bottom: 2px solid $gray-400;
+                    }
+
+                    li a:last-child {
+                        margin-right: 3rem;
+                        //font-size: 5rem;
+                    }
                  
                 }
             }
