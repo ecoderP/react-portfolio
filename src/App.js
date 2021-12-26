@@ -7,7 +7,7 @@ import ProjectsPage from './components/projects_page';
 import Contact from './components/contact';
 import Footer from './components/footer';
 
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 
 
