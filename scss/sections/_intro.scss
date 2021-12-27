@@ -5,7 +5,7 @@
 .intro {
     height: 100%;
     width: 100vw;
-    padding: 7rem 0.5rem 3rem 0.5rem;
+    padding: 3rem 0.5rem 3rem 0.5rem;
     display: flex;
     flex-direction: column;    
     @include gradient;
@@ -19,6 +19,7 @@
 
         &_wrapper {
             padding: 2rem;
+            width: 100%;
             height: 100%;
             display: flex;
             flex-direction: column;
@@ -28,15 +29,17 @@
 
 
         &_welcome {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             color: $gray-300;
         }
 
         &_name {
-            font-size: 3.2rem;
+            margin: 0;
+            padding: 0;
+            font-size: 2rem;
             font-weight: 700;
             color: $gray-300;
-            text-align: center;
+            //text-align: center;
         }
     }
 
@@ -50,19 +53,13 @@
             animation: slide-up 5s ease-in-out infinite alternate;
         }
 
-        &_item {
-            height: 50px;
-            font-size: 1.2rem;
-            font-weight: 500;
-            color: $gray-300;
-            align-self: center;
-        }            
+                    
 
     }
 
     &_desc {
         font-size: 1rem;
-        padding: 1rem 0 1rem 0;
+        padding: 0.3rem 0 0.3rem 0;
         color: $gray-400;
     }
 
@@ -86,10 +83,10 @@
 
 @media screen and (min-width: 720px) {
     .intro {
-        padding: 8rem 1rem 1rem 6rem;
+        padding: 6rem 1rem 1rem 3rem;
         flex-direction: row;
         text-align: center;
-        height: 100vh;
+        //height: 100vh;
 
 
         &_left {
@@ -109,14 +106,16 @@
 
 
             &_welcome {
-                font-size: 1.7rem;
+                font-size: 1.5rem;
                 padding: 0;
                 margin: 0;
             }
 
 
             &_name {
-                font-size: 3.5rem;
+                font-size: 2.5rem;
+                margin: 0;
+                padding: 0;
             }
         
         }
@@ -134,9 +133,6 @@
             }
 
 
-            &_item {
-                height: 40px;
-            }
         }
 
 

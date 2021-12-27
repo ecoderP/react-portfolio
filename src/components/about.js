@@ -2,6 +2,8 @@ import Me from "../../src/img/me-3.png";
 
 
 const About = () => {
+    
+
     return (
         <div className="about">
             <div className="about_wrapper">
@@ -11,7 +13,7 @@ const About = () => {
                         <img 
                           src={Me} 
                           alt="Paul Onyebuchi"  
-                          className=""about_img
+                          className="about_img"
                         />
                     </div>
                 </div>

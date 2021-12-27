@@ -9,10 +9,11 @@ import { PortfolioPages } from './data_module';
 
 
 function ProjectsPage() {
-    
+       
+
     useEffect(() => {
         //update document title
-        document.title = 'Paul Onyebuchi: Projects';
+        document.title = `Paul Onyebuchi: Skills`;
     }, []);
 
 

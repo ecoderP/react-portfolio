@@ -6,17 +6,15 @@ const Intro = () => {
         <div className = "intro">
             <div className = "intro_left">
                 <div className = "intro_left_wrapper">
-                    <h2 className = "intro_left_welcome">Hi, I'm 
-                        <span className = "intro_left_name"> Paul</span>
-                    </h2>
+                    <h2 className = "intro_left_welcome">PAUL ONYEBUCHI </h2>
+                    <h3 className = "intro_left_name"> FRONTEND DEVELOPER</h3>
                     <div className = "intro_expertise">
                         <div className="intro_expertise_wrapper">
-                            <div className="intro_expertise_item">Frontend Developer</div>
-                            <div className="intro_expertise_item">Digital Marketer</div>
-                            <div className="intro_expertise_item">Digital Marketer</div>
+                           
                         </div>
                     </div>
-                    <p className="intro_description">CSS || Javascript || React</p>
+                    <p className="intro_description">A Frontend Developer with a focus on responsive design 
+                        and excellent UI experiences</p>
                 </div> 
             </div>
             <div className = "intro_right">
