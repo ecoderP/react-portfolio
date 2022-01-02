@@ -24,27 +24,45 @@ function ProjectsPage() {
             <p>Most of the projects I've built so far are projects 
                 I embark on to try out a new tech I'm learning, with a bunch of freelance projects</p>
             <div className={"projectsPage_wrapper"}>
-                <h3>Webpages</h3>
-                < div className="projectsPage_webpages">
+                <h3>Webpages ({WebPages.length})</h3>
+                < div className="projectsPage_items webpages">
                     {WebPages.map((item) =>
                     <Projects2 
                         key={item.id} img={item.img} link={item.link} 
                         heading={item.heading}
                         desc={item.desc}
                         tech={item.tech}
+                        link1={item.link1}
+                        link2={item.link2}
                  />)}
                 </div>
             </div>
             <div className="projectsPage_wrapper">
-                <h3>Web Apps</h3>
-                <div className="projectsPage_webpapps">
-                    
+                <h3>Web Apps ({WebApps.length})</h3>
+                <div className="projectsPage_items webapps">
+                {WebApps.map((item) =>
+                    <Projects2 
+                        key={item.id} img={item.img} link={item.link} 
+                        heading={item.heading}
+                        desc={item.desc}
+                        tech={item.tech}
+                        link1={item.link1}
+                        link2={item.link2}
+                 />)}
                 </div>
             </div>
             <div className="projectsPage_wrapper">
-                <h3>Portfolios</h3>
-                <div className="projectsPage_portfolios">
-                    
+                <h3>Portfolios ({PortfolioPages.length})</h3>
+                <div className="projectsPage_items portfolios">
+                {PortfolioPages.map((item) =>
+                    <Projects2 
+                        key={item.id} img={item.img} link={item.link} 
+                        heading={item.heading}
+                        desc={item.desc}
+                        tech={item.tech}
+                        link1={item.link1}
+                        link2={item.link2}
+                 />)}
                 </div>
             </div>
         </div>

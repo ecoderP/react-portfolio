@@ -20,10 +20,14 @@ const About = () => {
                 <div className="about_right">
                     <h1 className="title">About Me</h1>
                     <div className="title_headingLine"></div>
-                    <p>I'm a Frontend Developer looking for exciting new opportunities and new challenges. I value simple content structure. I like to code things from scratch and enjoy bringing ideas 
-                        to live on the browser. When coding, I focus on writing accessible HTML and clean Javascript, using modern CSS practices. Also, I find I'm able to communicate complex ideas to non-tecnical audiences.
+                    <p>Hi, welcome to my portfolio website. I'm Paul Onyebuchi, a self-taught Front-End Developer with a focus on responsive design and excellent UI experiences.
                     </p>
-                    <p>When I'm not working, you'll probably catch me seeing a new movie.</p>
+                    <p>I started learning to code because I wanted to be able to implement custom styles to the wordpress websites I was building for small and medium sized businesses, but soon discovered the more I learnt, the more I wanted to know. 
+                    </p>
+                    <p>Since making the decision to learn to code
+                         in 2020, I have achieved high-level skills in HTML, CSS & SASS, with intermidiate-level skills in Javascript and React. Other tools I use include Git, Photoshop, Figma, npm  and some others you'll find in the skills section below.
+                    </p>
+                    <p>When I'm not coding, you'll probably find me in class teaching computer science and coding fundamentals to a bunch of college students, or just out with friends relaxing or seeing a movie.</p>
                 </div>
             </div>
         </div>

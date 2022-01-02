@@ -3,6 +3,9 @@
 
 const Projects = ({img, link, heading, desc, tech, link1, link2}) =>  {
     
+    const handleClick = () => {
+        window.open(link1);
+    }
 
     return (
         <div className="projects homePageComponent">
@@ -18,7 +21,7 @@ const Projects = ({img, link, heading, desc, tech, link1, link2}) =>  {
                 <h5>{heading}</h5>
                 <p>{desc}</p>
                 <h6 className="tech">{tech}</h6>
-                <button>See Live Project</button>
+                <button onClick={handleClick}>See Live Project</button>
             </div>
             
             

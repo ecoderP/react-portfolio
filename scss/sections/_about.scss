@@ -17,6 +17,7 @@
         flex-direction: column;
     }
 
+
     &_left {
         flex: 1;
         height: 100%;
@@ -29,18 +30,19 @@
 
 
     &_card.bg {
-        position: absolute;
-        top: 20px;
+        position: absolute; 
+        top: 30px;
         left: 50px;
         background-color: rgba($secondary, 0.6);
         display: none;
     }
 
+
     &_card {
-        width: 70%;
-        height: 90%;
+        width: 200px;
+        height: 200px;
         position: absolute;
-       border-radius: 2.5rem;
+        border-radius: 2.5rem;
         overflow: hidden;
 
 
@@ -54,6 +56,7 @@
 
 
     &_right {
+        margin-top: 7rem;
         flex: 1;
         height: 100%;
         align-self: center;
@@ -89,7 +92,7 @@
 
         p {
             font-weight: 300;
-            text-align: center;
+            //text-align: center;
         }
     }
 }
@@ -98,8 +101,8 @@
 
 @media screen and (min-width: 720px) {
     .about {
-        padding: 5rem;
-        margin: 2rem 0;
+        padding: 2rem 5rem;
+        margin: 1rem 0;
         text-align: center;
 
 
@@ -122,7 +125,7 @@
 
         &_card {
             width: 60%;
-            height: 70%;
+            height: 95%;
             position: relative;
 
 
@@ -134,7 +137,8 @@
 
         &_right {
             width: 100%;
+            margin-top: 0;
         }
     }   
-    
+
 }

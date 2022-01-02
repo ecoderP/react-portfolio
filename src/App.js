@@ -11,10 +11,11 @@ import { Route, Routes } from 'react-router-dom';
 
 
 
+
 const App = () => {
     return (
-        
-            <div>
+
+            <div className="App">
                 <Navbar />
                 
                     <Routes>
@@ -37,6 +38,8 @@ const App = () => {
                 
                 <Footer />
             </div>
+        
+            
         
     
 )

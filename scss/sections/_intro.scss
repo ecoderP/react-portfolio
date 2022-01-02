@@ -1,3 +1,5 @@
+
+
 @import '../mixins';
 @import '../animations';
 
@@ -5,7 +7,7 @@
 .intro {
     height: 100%;
     width: 100vw;
-    padding: 3rem 0.5rem 3rem 0.5rem;
+    padding: 7rem 0.5rem 3rem 0.5rem;
     display: flex;
     flex-direction: column;    
     @include gradient;
@@ -28,39 +30,30 @@
         }
 
 
-        &_welcome {
+        &_name {
             font-size: 1.2rem;
-            color: $gray-300;
+            color: $gold;
+            opacity: 0.5;
         }
 
-        &_name {
-            margin: 0;
+        &_skill {
+            margin: 2rem 0 0 0;
             padding: 0;
             font-size: 2rem;
             font-weight: 700;
             color: $gray-300;
-            //text-align: center;
+            text-align: center;
         }
     }
 
-    &_expertise {
-        height: 50px;
-        overflow: hidden;
-        display: flex;
+    
 
-        &_wrapper {
-            height: 100%;
-            animation: slide-up 5s ease-in-out infinite alternate;
-        }
-
-                    
-
-    }
-
-    &_desc {
+    &_description {
         font-size: 1rem;
         padding: 0.3rem 0 0.3rem 0;
-        color: $gray-400;
+        color: $gold;
+        opacity: 0.5;
+        text-align: center;
     }
 
 
@@ -99,44 +92,37 @@
             &_wrapper {
                 padding-top: 1rem;
                 width: 100%;
-                height: 70%;
+                height: 100%;
                 justify-content: space-between;
                 align-items: flex-start;
             }
 
 
-            &_welcome {
+            &_name { 
                 font-size: 1.5rem;
                 padding: 0;
                 margin: 0;
             }
 
 
-            &_name {
-                font-size: 2.5rem;
+            &_skill {
+                font-size: 3rem;
                 margin: 0;
                 padding: 0;
+                text-align: left;
             }
         
+
+            &_desc {
+                text-align: center;
+            }
         }
-
-
-        &_expertise {
-            padding: 1.4rem;
-            height: 30px;
-            //display: flex;
             
 
-
-            &_wrapper {
-                height: 100%;
-            }
+    
 
 
-        }
-
-
-    &_right {
+        &_right {
             flex: 1;
             flex-shrink: 1;
             width: 50%;

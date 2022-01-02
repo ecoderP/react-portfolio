@@ -74,8 +74,8 @@
 
     &_holder {
         flex: 1;
-        padding: 0.5rem;
-        margin: 1rem;
+        padding: 0.05rem;
+        margin: 0.2rem;
         text-align: center;
         display: flex;
         justify-content: center;
@@ -95,7 +95,7 @@
 
 
             img {
-                width: 70%;
+                width: 90%;
                 object-fit: contain;
             }
         }

@@ -4,6 +4,12 @@
 
 const Projects2 = ({img, link, heading, desc, tech, link1, link2}) =>  {
     
+    const handleClick = () => {
+        window.open(link1);
+    };
+    const handleClick2 = () => {
+        window.open(link2);
+    }
 
     return (
         <div className="projects projectsPageComponent">
@@ -19,7 +25,11 @@ const Projects2 = ({img, link, heading, desc, tech, link1, link2}) =>  {
                 <h5>{heading}</h5>
                 <p>{desc}</p>
                 <h6 className="tech">{tech}</h6>
-                <button>See Live Project</button>
+                <div>
+                <button onClick={handleClick}>See Site</button>
+                <button onClick={handleClick2}>Source Code</button>
+                </div>
+                
             </div>
             
             
