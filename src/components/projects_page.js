@@ -21,8 +21,7 @@ function ProjectsPage() {
         <div className="projectsPage">
             <h2 className="title">Projects</h2>
             <div className="title_headingLine"></div>
-            <p>Most of the projects I've built so far are projects 
-                I embark on to try out a new tech I'm learning, with a bunch of freelance projects</p>
+            <p>Here's a list of exciting projects I've completed or currently working on.</p>
             <div className={"projectsPage_wrapper"}>
                 <h3>Webpages ({WebPages.length})</h3>
                 < div className="projectsPage_items webpages">
