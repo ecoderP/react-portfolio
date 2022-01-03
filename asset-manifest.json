@@ -1,29 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.be5e52eb.chunk.css",
-    "main.js": "/static/js/main.c578d36f.chunk.js",
-    "main.js.map": "/static/js/main.c578d36f.chunk.js.map",
+    "main.css": "/static/css/main.4ff9af69.chunk.css",
+    "main.js": "/static/js/main.afca90de.chunk.js",
+    "main.js.map": "/static/js/main.afca90de.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dc33665e.js",
     "runtime-main.js.map": "/static/js/runtime-main.dc33665e.js.map",
     "static/js/2.e71eb0a0.chunk.js": "/static/js/2.e71eb0a0.chunk.js",
     "static/js/2.e71eb0a0.chunk.js.map": "/static/js/2.e71eb0a0.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.be5e52eb.chunk.css.map": "/static/css/main.be5e52eb.chunk.css.map",
+    "static/css/main.4ff9af69.chunk.css.map": "/static/css/main.4ff9af69.chunk.css.map",
     "static/js/2.e71eb0a0.chunk.js.LICENSE.txt": "/static/js/2.e71eb0a0.chunk.js.LICENSE.txt",
     "static/media/admin-dashboard.3589b80e.png": "/static/media/admin-dashboard.3589b80e.png",
+    "static/media/code-votex.3cd61328.jpg": "/static/media/code-votex.3cd61328.jpg",
+    "static/media/fake-portfolio.8e452e4d.jpg": "/static/media/fake-portfolio.8e452e4d.jpg",
     "static/media/google-analytics.a2d5f2b6.png": "/static/media/google-analytics.a2d5f2b6.png",
     "static/media/header.665e11fa.png": "/static/media/header.665e11fa.png",
     "static/media/html.01ad075a.png": "/static/media/html.01ad075a.png",
     "static/media/me-3.0f80684a.png": "/static/media/me-3.0f80684a.png",
     "static/media/phonebook.52e50999.jpg": "/static/media/phonebook.52e50999.jpg",
     "static/media/photoshop.9bb8e3ac.png": "/static/media/photoshop.9bb8e3ac.png",
+    "static/media/portfolio-v1.cacb79b1.jpg": "/static/media/portfolio-v1.cacb79b1.jpg",
+    "static/media/portfolio-v2.a08348fa.jpg": "/static/media/portfolio-v2.a08348fa.jpg",
     "static/media/product-page.3dc3fc09.jpg": "/static/media/product-page.3dc3fc09.jpg",
+    "static/media/tech-hub-ops.6635ea6e.jpg": "/static/media/tech-hub-ops.6635ea6e.jpg",
+    "static/media/tic-tac-toe.1bbbc1b4.jpg": "/static/media/tic-tac-toe.1bbbc1b4.jpg",
     "static/media/wordpress.be7eecbe.png": "/static/media/wordpress.be7eecbe.png"
   },
   "entrypoints": [
     "static/js/runtime-main.dc33665e.js",
     "static/js/2.e71eb0a0.chunk.js",
-    "static/css/main.be5e52eb.chunk.css",
-    "static/js/main.c578d36f.chunk.js"
+    "static/css/main.4ff9af69.chunk.css",
+    "static/js/main.afca90de.chunk.js"
   ]
 }
