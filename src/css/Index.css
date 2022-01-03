@@ -316,7 +316,6 @@ body p {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    text-align: center;
   }
   .intro_left {
     -webkit-box-flex: 1;
@@ -330,9 +329,9 @@ body p {
     padding-top: 1rem;
     width: 100%;
     height: 100%;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
@@ -348,8 +347,9 @@ body p {
     padding: 0;
     text-align: left;
   }
-  .intro_left_desc {
-    text-align: center;
+  .intro_left_description {
+    font-size: 1.2rem;
+    text-align: left;
   }
   .intro_right {
     -webkit-box-flex: 1;
@@ -1010,6 +1010,9 @@ body p {
   margin-bottom: 1rem;
   display: block;
   background-color: #292E49;
+}
+.projectsPage .title p {
+  text-align: center;
 }
 .projectsPage_wrapper {
   width: 100%;

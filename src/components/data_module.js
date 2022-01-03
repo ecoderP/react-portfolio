@@ -1,22 +1,26 @@
 // Images for Web Pages
+import TechHub from "../../src/img/projects/tech-hub-ops.jpg";
+import CodeVotex from "../../src/img/projects/code-votex.jpg";
 import Prodpage from "../../src/img/projects/product-page.jpg";
-
 
 // Images for Web Apps
 import Dashboard from "../../src/img/projects/admin-dashboard.png";
 import Phonebook from "../../src/img/projects/phonebook.jpg";
+import TicTacToe from "../../src/img/projects/tic-tac-toe.jpg";
 
 // Images for Portfolios
-//import PortfolioV1 from "../../src/img/projects/portfolio-v1.jpg";
+import FakePortfolio from "../../src/img/projects/fake-portfolio.jpg";
+import PortfolioV1 from "../../src/img/projects/portfolio-v1.jpg";
+import PortfolioV2 from "../../src/img/projects/portfolio-v2.jpg";
 
 
 export const SampleProjects = [
     {
         id: 1,
-        img: Dashboard,
+        img: TechHub,
         link: "https://techhub-ops.com",
         heading: "Tech Hub - Ecomm",
-        desc: "This client wanted a woocommerce store with a specific UI. I used a theme, a builder and about 450 lines of Code to achieve this.",
+        desc: "Wordpress woocommerce store with client specified UI. Existing theme customised about 450 lines of Code to achieve this.",
         tech: "- Wordpress - - Woocommerce - - CSS -",
         link1: "https://techhub-ops.com",
         link2: ""
@@ -33,7 +37,7 @@ export const SampleProjects = [
     },
     {
         id: 3,
-        img: Prodpage,
+        img: PortfolioV2,
         link: "https://paulonyebuchi.xyz/",
         heading: "Portfolio V2.0",
         desc: "Version 2.0 of my portfolio website. I wanted something fast and easy to manage.",
@@ -48,7 +52,7 @@ export const SampleProjects = [
 export const WebPages = [
     {
         id: 1,
-        img: Dashboard,
+        img: TechHub,
         link: "techhub-ops.com",
         heading: "Tech Hub Ops - Ecommerce",
         desc: "This client wanted a woocommerce store with a specific UI. I used a theme, a builder and about 450 lines of Code to achieve this.",
@@ -58,7 +62,7 @@ export const WebPages = [
     },
     {
         id: 2,
-        img: Phonebook,
+        img: CodeVotex,
         link: "https://boots5-sass-project.netlify.app/",
         heading: "Code Votex",
         desc: "Single page website for an imaginary software company.",
@@ -79,7 +83,7 @@ export const WebPages = [
     {
         id: 4,
         img: Prodpage,
-        link: "xyz.com",
+        link: "",
         heading: "Product Landing Page",
         desc: "freeCodeCamp project on Responsive Website Design.",
         tech: "-HTML- -CSS-",
@@ -112,7 +116,7 @@ export const WebApps = [
     },
     {
         id: 3,
-        img: Prodpage,
+        img: TicTacToe,
         link: "https://t-t-t-game.netlify.app/",
         heading: "Tic Tac Toe Game",
         desc: "Tic Tac Toe Game with game sounds.",
@@ -126,7 +130,7 @@ export const WebApps = [
 export const PortfolioPages = [
     {
         id: 1,
-        img: Prodpage,
+        img: FakePortfolio,
         link: "https://cocky-nobel-0e5ecd.netlify.app/",
         heading: "Fake Portfolio",
         desc: "fCC responsive design project. One of my earliest projects.",
@@ -136,7 +140,7 @@ export const PortfolioPages = [
     },
     {
         id: 2,
-        img: Phonebook,
+        img: PortfolioV1,
         link: "https://onyebuchi.netlify.app/",
         heading: "Portfolio V1.0",
         desc: "Version 1.0 of my portfolio website. Built after learning html, css and JS.",
@@ -146,7 +150,7 @@ export const PortfolioPages = [
     },
     {
         id: 3,
-        img: Prodpage,
+        img: PortfolioV2,
         link: "https://paulonyebuchi.xyz/",
         heading: "Portfolio V2.0",
         desc: "Portfolio website version 2.0. I wanted something fast and easy to manage.",
