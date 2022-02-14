@@ -13,7 +13,7 @@ const Skills = () => {
             <div className="skills">
                 <h2 className="title">Skills</h2>
                 <div className="title_headingLine"></div>
-                <p>Experience working with:</p>
+                <p>I have experience working with:</p>
                 <div className="skills_block">
                     <h3>Tech. / Languages</h3>
                     <div className="skills_wrapper tech">

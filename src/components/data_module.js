@@ -31,7 +31,7 @@ export const SampleProjects = [
         link: "https://filterable-phonebook.netlify.app/",
         heading: "Filterable Phonebook",
         desc: "A simple contacts management web app with a Samsung phonebook UI.",
-        tech: "-HTML- -CSS- -Javascript-",
+        tech: "-CSS- -Javascript-",
         link1: "https://filterable-phonebook.netlify.app/",
         link2: "https://github.com/ecoderP/Filterable-Phonebook"
     },
@@ -53,11 +53,11 @@ export const WebPages = [
     {
         id: 1,
         img: TechHub,
-        link: "techhub-ops.com",
+        link: "https://techhub-ops.com",
         heading: "Tech Hub Ops - Ecommerce",
         desc: "This client wanted a woocommerce store with a specific UI. I used a theme, a builder and about 450 lines of Code to achieve this.",
         tech: "- Wordpress - - Woocommerce - - CSS -",
-        link1: "techhub-ops.com",
+        link1: "https://techhub-ops.com",
         link2: ""
     },
     {
@@ -72,16 +72,6 @@ export const WebPages = [
     },
     {
         id: 3,
-        img: Phonebook,
-        link: "sgthub.com.ng",
-        heading: "SGT Hub - Real Estate",
-        desc: "Wordpress site redesign. Existing theme customised with about 400 lines of code.",
-        tech: "-Worpress- -CSS-",
-        link1: "sgthub.com.ng",
-        link2: ""
-    },
-    {
-        id: 4,
         img: Prodpage,
         link: "",
         heading: "Product Landing Page",

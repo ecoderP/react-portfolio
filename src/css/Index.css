@@ -455,6 +455,7 @@ body p {
 }
 .about_right p {
   font-weight: 300;
+  text-align: justify;
 }
 
 @media screen and (min-width: 720px) {
@@ -687,6 +688,7 @@ body p {
   border: 2px solid #999;
   padding: 0.5rem 0.5rem;
   color: #000;
+  cursor: pointer;
 }
 .portfolio .btn:hover {
   background-color: #dc143c;
@@ -710,10 +712,13 @@ body p {
   .portfolio .horizontalLine {
     margin-top: 3rem;
   }
+  .portfolio .btn {
+    cursor: pointer;
+  }
 }
 .contact {
   padding: 3rem 0;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
   width: 96%;
   height: 100%;
   position: relative;
@@ -856,6 +861,7 @@ body p {
             flex: 1;
     height: 4rem;
     margin-left: 0.5rem;
+    font-size: 3rem;
     color: #292E49;
     cursor: pointer;
   }
@@ -1033,7 +1039,7 @@ body p {
 
 .footer {
   width: 100%;
-  height: 330px;
+  height: 350px;
   margin: 5rem 0 0 0;
   background: -webkit-gradient(linear, left top, right top, from(rgba(41, 46, 73, 0.95)), to(rgba(83, 105, 118, 0.8)));
   background: linear-gradient(to right, rgba(41, 46, 73, 0.95), rgba(83, 105, 118, 0.8));
@@ -1102,10 +1108,11 @@ body p {
 }
 .footer_socials .github-icon,
 .footer_socials .linkedin-icon {
-  width: 2rem;
+  width: 3rem;
   height: auto;
   margin: 0.3rem 1rem;
   padding: 1.5rem 0.5rem;
+  font-size: 2rem;
   color: #ced4da;
   -webkit-box-flex: 1;
       -ms-flex: 1;

@@ -17,8 +17,12 @@ const Footer = () => {
                     <Link to="/contact">Contact Me</Link>
                 </div>
                 <div className="footer_socials">
-                    <AiOutlineGithub className="github-icon" />
-                    <AiOutlineLinkedin className="linkedin-icon" />
+                    <a href="https://github.com/ecoderP" target="_blank" rel='noreferrer'>
+                        <AiOutlineGithub className="github-icon" />
+                    </a>
+                    <a href="https://linkedin.com/in/paulonyebuchi" target="_blank" rel='noreferrer'>
+                        <AiOutlineLinkedin className="linkedin-icon" />
+                    </a>
                 </div>   
             </div>
         </div>

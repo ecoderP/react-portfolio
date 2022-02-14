@@ -62,6 +62,7 @@
         border: 2px solid #999;
         padding: 0.5rem 0.5rem;
         color: #000;
+        cursor: pointer;
 
         
         &:hover {
@@ -90,6 +91,11 @@
         .horizontalLine {
           margin-top: 3rem;
     
+        }
+
+
+        .btn {
+            cursor: pointer;
         }
     }
     

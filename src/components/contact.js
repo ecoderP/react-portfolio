@@ -16,12 +16,17 @@ const Contact = () => {
                 <div className="contact_left">
                     <h2>Let's Discuss Your Project!</h2>
                     <div className="contact_left_icons">
-                        <AiOutlineGithub className="github-icon" />
-                        <AiOutlineLinkedin className="linkedin-icon" />
+                        <a href="https://github.com/ecoderP" target="_blank" rel="noreferrer">
+                            <AiOutlineGithub className="github-icon" />
+                        </a>
+                        <a href="https://linkedin.com/in/paulonyebuchi" target="_blank" rel="noreferrer">
+                            <AiOutlineLinkedin className="linkedin-icon" />
+                        </a>
                     </div>
                 </div>
                 <div className="contact_right">
-                    <p><span>What's Your Story?</span> Get in touch. Always available for freelancing if the right opportunity comes.</p>
+                    <p><span>What's Your Story?</span> Get in touch. I am available for a fulltime role or freelancing if the right opportunity comes.</p>
+                    <p>If you love my work, you may send a message to say 'Hi' or find me on social media, let's connect.</p>
                     <form ref={formSub} onSubmit={ handleSubmit }>
                         <input type="text" name="sender_name" placeholder="Enter your name" />
                         <input type="email" name="sender_email" placeholder="Email address" />
