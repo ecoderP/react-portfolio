@@ -1,12 +1,19 @@
 import { useRef } from "react";
+import emailjs from '@emailjs/browser';
 import { AiOutlineGithub } from 'react-icons/ai';
 import { AiOutlineLinkedin } from 'react-icons/ai';
-
+ 
 const Contact = () => {
     const formSub = useRef();
     const handleSubmit = (e) => {
         e.preventDefault();
-        
+        emailjs.sendForm("5pjvlTppcIEH5wgji", "template_mosd3kh", formSub.current, "service_qcla1oa")
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
     }
 
     return (
@@ -30,7 +37,7 @@ const Contact = () => {
                     <form ref={formSub} onSubmit={ handleSubmit }>
                         <input type="text" name="sender_name" placeholder="Enter your name" />
                         <input type="email" name="sender_email" placeholder="Email address" />
-                        <input type="text" name="subject" placeholder="Email subject" />
+                        <input type="text" name="sender_subject" placeholder="Email subject" />
                         <textarea rows="8" name="message" placeholder="Type message here..." />
                         <button>Send</button> 
                     </form>
