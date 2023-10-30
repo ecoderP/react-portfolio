@@ -1,5 +1,5 @@
 // Images for Web Pages
-import TechHub from "../../src/img/projects/tech-hub-ops.jpg";
+import SmartBuy from "../../src/img/projects/tech-hub-ops.jpg";
 import CodeVotex from "../../src/img/projects/code-votex.jpg";
 import Prodpage from "../../src/img/projects/product-page.jpg";
 
