@@ -17,12 +17,12 @@ import PortfolioV2 from "../../src/img/projects/portfolio-v2.jpg";
 export const SampleProjects = [
     {
         id: 1,
-        img: TechHub,
-        link: "https://techhub-ops.com",
-        heading: "Tech Hub - Ecomm",
+        img: SmartBuy,
+        link: "https://smartbuy.com.ng",
+        heading: "Smart Buy - Ecomm",
         desc: "Wordpress woocommerce store with client specified UI. Existing theme customised about 450 lines of Code to achieve this.",
         tech: "- Wordpress - - Woocommerce - - CSS -",
-        link1: "https://techhub-ops.com",
+        link1: "https://smartbuy.com.ng",
         link2: ""
     },
     {

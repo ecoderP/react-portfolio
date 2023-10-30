@@ -1,15 +1,22 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 import { AiOutlineGithub } from 'react-icons/ai';
 import { AiOutlineLinkedin } from 'react-icons/ai';
  
 const Contact = () => {
     const formSub = useRef();
+    const [done, setDone] = useState(false);
     const handleSubmit = (e) => {
         e.preventDefault();
-        emailjs.sendForm("5pjvlTppcIEH5wgji", "template_mosd3kh", formSub.current, "service_qcla1oa")
+        emailjs.sendForm(
+            'service_qcla1oa', 
+            'template_mosd3kh', 
+            formSub.current, 
+            '5pjvlTppcIEH5wgji'
+            )
       .then((result) => {
           console.log(result.text);
+          setDone(true);
       }, (error) => {
           console.log(error.text);
       });
@@ -39,7 +46,8 @@ const Contact = () => {
                         <input type="email" name="sender_email" placeholder="Email address" />
                         <input type="text" name="sender_subject" placeholder="Email subject" />
                         <textarea rows="8" name="message" placeholder="Type message here..." />
-                        <button>Send</button> 
+                        <button>Send</button>
+                        {done && "Message sent. Thank you."} 
                     </form>
                 </div>  
             </div>
