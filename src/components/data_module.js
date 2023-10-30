@@ -52,12 +52,12 @@ export const SampleProjects = [
 export const WebPages = [
     {
         id: 1,
-        img: TechHub,
-        link: "https://techhub-ops.com",
+        img: SmartBuy,
+        link: "https://smartbuy.com.ng",
         heading: "Tech Hub Ops - Ecommerce",
         desc: "This client wanted a woocommerce store with a specific UI. I used a theme, a builder and about 450 lines of Code to achieve this.",
         tech: "- Wordpress - - Woocommerce - - CSS -",
-        link1: "https://techhub-ops.com",
+        link1: "https://smartbuy.com.ng",
         link2: ""
     },
     {
